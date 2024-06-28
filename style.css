@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    right: 0;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: greenyellow;
+    
+}
+
+body{
+
+    min-height: 125vh;
+
+}
+
+p{
+    text-align: center;
+    font-weight: blo;
+}
+
+.box {
+
+border: 3px solid black;
+width : 500px;
+height: 200px;
+margin: 0 auto;
+position: relative;
+}
+
+.child{
+
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
+
+/*FIXED*/
+
+
+
+/*
+
+CUANDO UN ELEMENTO ESTA POSICIONADO
+
+top
+right
+bottom
+left
+z-index
+
+
+
+*/
